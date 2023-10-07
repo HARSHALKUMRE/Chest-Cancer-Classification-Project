@@ -1,1 +1,5 @@
-key: val
+IMAGE_SIZE: [224,224,3] # as per vgg16 model
+INCLUDE_TOP: False
+CLASSES: 2
+WEIGHTS: imagenet
+LEARNING_RATE: 0.01
